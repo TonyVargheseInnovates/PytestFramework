@@ -32,6 +32,14 @@ The Objective of the test suite is :
 1) Goto pyTestFramework_EclecticIQ_Tony/tests/
 2) py.test --html-report=./report/report.html
 
+#### Test Solution Features:
+
+1) Test Solution is robust to handle new rows and new columns
+2) Test Solution handles k=1000, M=1000000 etc
+3) Page Object Design implemented in test solution for scalability
+4) Test Solution supports multi browser testing
+5) Test Solution incoperates logging feature and reporting mechanism
+ 
 #### Test Suite:
 The Test Solution has 2 Test Suites :
 
@@ -53,3 +61,9 @@ Sorting Feature Test Suite has 4 test cases which follow a TDD approach to check
 3) Ensure that when you Sort by Impact Score, Webtable is sorted from low to high
 4) Ensure that when you Sort by Complexity, Webtable is sorted as low, medium, high respectively
 
+#### Test Report Screenshots:
+
+![DashboardScreenshot](https://user-images.githubusercontent.com/44523789/108625170-5c14f000-746f-11eb-9d0f-5f0f10bd9aee.png)
+![TestSuiteScreenshot](https://user-images.githubusercontent.com/44523789/108625214-b31ac500-746f-11eb-8691-78aef9e50410.png)
+![TestMetricsScreenshot](https://user-images.githubusercontent.com/44523789/108625221-bf9f1d80-746f-11eb-9abf-fa2c4e327143.png)
+![ArchivesScreenshot](https://user-images.githubusercontent.com/44523789/108625252-e198a000-746f-11eb-9f51-58c5cc9069ec.png)
