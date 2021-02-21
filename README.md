@@ -36,18 +36,20 @@ The Objective of the test suite is :
 The Test Solution has 2 Test Suites :
 
 -	[x] **Filter Feature Test Suite** -> test_filterFeature.py
-          Filter Feature Test Suite has 4 test cases which follow a TDD approach to check the below test scenarios
+
+Filter Feature Test Suite has 4 test cases which follow a TDD approach to check the below test scenarios
           
-            1) Ensure that when you input "high" in filter input, Webtable is populated with only words containing "high"
-            2) Ensure that when you input "Man in the Middle" in filter input, Webtable is populated with only words containing "Man in the Middle"
-            3) Ensure that when you input substring "hi" in filter input, Webtable is populated with only words containing "hi"
-            4) Ensure that when you input substring "phis" in filter input, Webtable is populated with only words containing "phis"
+1) Ensure that when you input "high" in filter input, Webtable is populated with only words containing "high"
+2) Ensure that when you input "Man in the Middle" in filter input, Webtable is populated with only words containing "Man in the Middle"
+3) Ensure that when you input substring "hi" in filter input, Webtable is populated with only words containing "hi"
+4) Ensure that when you input substring "phis" in filter input, Webtable is populated with only words containing "phis"
 
 -	[x] **Sort Feature Test Suite** -> test_sortingFeature.py
-          Sorting Feature Test Suite has 4 test cases which follow a TDD approach to check the below test scenarios
+
+Sorting Feature Test Suite has 4 test cases which follow a TDD approach to check the below test scenarios
           
-             1) Ensure that when you Sort By Name, Webtable is sorted by name alphabetically
-             2) Ensure that when you Sort by Number Of Cases, Webtable is sorted from low to high and Test Solution handles k=1000, M=1000000 etc
-             3) Ensure that when you Sort by Impact Score, Webtable is sorted from low to high
-             4) Ensure that when you Sort by Complexity, Webtable is sorted as low, medium, high respectively
+1) Ensure that when you Sort By Name, Webtable is sorted by name alphabetically
+2) Ensure that when you Sort by Number Of Cases, Webtable is sorted from low to high and Test Solution handles k=1000, M=1000000 etc
+3) Ensure that when you Sort by Impact Score, Webtable is sorted from low to high
+4) Ensure that when you Sort by Complexity, Webtable is sorted as low, medium, high respectively
 
