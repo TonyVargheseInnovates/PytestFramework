@@ -3,18 +3,29 @@
 
 I am Tony Varghese. A QA Specialist with a passion for building full stack apps. As part of Automation Testing, I have primarily worked on Selenium Webdriver with Python using Pytest framework. I am also a Certified ScrumMaster , HP Certified Automation Tester and ISTQB Certified. 
 
-You could get to know more about me by clicking here -> https://tonyvarghese.me/
-
+You could get to know more about me by clicking here -> https://tonyvarghese.me/. 
 ### Task–Test Automation:
 
-The below test automation has been completed using **Selenium-Webdriver(Python) :: Pytest Framework **. 
+The below test automation solution has been completed using **Selenium-Webdriver(Python) :: Pytest Framework **. 
+
+The Objective of the test suite is : 
+1) To validate the correctness of Filter Feature and Sort Feature implmented in the webpage
+2) Test Solution should be robust to handle changes to webpage, eg, if new rows or colums are added to the webtable
 
 #### Prerequisites :
 
-1)	Latest Version of Node Installed -> https://nodejs.org/en/      
-2)	Install chromedriver and add to path in environment variables -> https://www.npmjs.com/package/selenium-webdriver
-3)	Clone the files from branch “Scenarios”
-4)	``` npm install ```
+1)	Latest Version of Python installed   
+2)	pip install selenium
+3)	pip install pytest
+4)	pip install pytest-html-reporter
+5)	Download Chromedrive(if not already done) and update the path of the chromedriver in pyTestFramework_EclecticIQ_Tony/tests/conftest.py
+    ```
+        browser_name = request.config.getoption("browser_name")
+        if browser_name == "chrome":
+            driver = webdriver.Chrome(executable_path="C:\\SeleniumWebdriverPython\\chromedriver.exe")  --> Update Chromedriver Path here
+        elif browser_name == "firefox":
+            driver = webdriver.Firefox(executable_path="C:\\SeleniumWebdriverPython\\geckodriver.exe")  --> Update Geckodriver Path here
+    ```
 
 #### User Story:
 ```
